@@ -1,0 +1,32 @@
+/* .main{
+    border: 2px solid black;
+
+}
+.main>div{
+    border: 2px solid gray;
+    display: inline-block;
+    width: 30%;
+} 
+ol{
+    list-style: outside circle;
+    width: 300px;
+}  */
+
+td {
+    border: 1px solid #0088dd;
+    padding: 15px;
+}
+
+
+table.one {
+    empty-cells: hide;
+ border-spacing: 5px 15px;
+    border-collapse: collapse;
+}
+
+td:hover{
+    background-color: aqua;
+    transform: scale(1.5);
+    transition: 2s;
+    cursor: pointer;
+}
